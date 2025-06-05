@@ -5847,16 +5847,16 @@
     "packages-dev": [
         {
             "name": "ef-tech/laravel-ddd-scaffold",
-            "version": "v1.4.1",
+            "version": "v1.4.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/ef-tech/laravel-ddd-scaffold.git",
-                "reference": "eebd07dc7411bd4dd2c17bdba37fa0988235a54d"
+                "reference": "b4fd15b2d9c3372946cb57cdf8c31f18d1f53936"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ef-tech/laravel-ddd-scaffold/zipball/eebd07dc7411bd4dd2c17bdba37fa0988235a54d",
-                "reference": "eebd07dc7411bd4dd2c17bdba37fa0988235a54d",
+                "url": "https://api.github.com/repos/ef-tech/laravel-ddd-scaffold/zipball/b4fd15b2d9c3372946cb57cdf8c31f18d1f53936",
+                "reference": "b4fd15b2d9c3372946cb57cdf8c31f18d1f53936",
                 "shasum": ""
             },
             "require": {
@@ -5890,9 +5890,9 @@
             "description": "A Laravel package to scaffold DDD and Clean Architecture structure.",
             "support": {
                 "issues": "https://github.com/ef-tech/laravel-ddd-scaffold/issues",
-                "source": "https://github.com/ef-tech/laravel-ddd-scaffold/tree/v1.4.1"
+                "source": "https://github.com/ef-tech/laravel-ddd-scaffold/tree/v1.4.2"
             },
-            "time": "2025-06-05T15:04:27+00:00"
+            "time": "2025-06-05T17:07:46+00:00"
         },
         {
             "name": "fakerphp/faker",
