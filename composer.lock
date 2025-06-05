@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "85c1d2065f70e38b0d6bf66559fb13c5",
+    "content-hash": "87bfa32ee1dae10aa6ff4998e9973396",
     "packages": [
         {
             "name": "brick/math",
@@ -5845,6 +5845,55 @@
         }
     ],
     "packages-dev": [
+        {
+            "name": "ef-tech/laravel-ddd-scaffold",
+            "version": "v1.3.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/ef-tech/laravel-ddd-scaffold.git",
+                "reference": "fdc0b0c114c9d0308cb65317adaa887b98653ef7"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/ef-tech/laravel-ddd-scaffold/zipball/fdc0b0c114c9d0308cb65317adaa887b98653ef7",
+                "reference": "fdc0b0c114c9d0308cb65317adaa887b98653ef7",
+                "shasum": ""
+            },
+            "require": {
+                "illuminate/console": "^9.0|^10.0|^11.0|^12.0",
+                "illuminate/support": "^9.0|^10.0|^11.0|^12.0",
+                "php": "^8.2"
+            },
+            "type": "library",
+            "extra": {
+                "laravel": {
+                    "providers": [
+                        "EfTech\\DddScaffold\\DddScaffoldServiceProvider"
+                    ]
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "EfTech\\DddScaffold\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Fumihiro Okumura",
+                    "email": "okumura@ef-tech.jp"
+                }
+            ],
+            "description": "A Laravel package to scaffold DDD and Clean Architecture structure.",
+            "support": {
+                "issues": "https://github.com/ef-tech/laravel-ddd-scaffold/issues",
+                "source": "https://github.com/ef-tech/laravel-ddd-scaffold/tree/v1.3.0"
+            },
+            "time": "2025-06-02T17:57:33+00:00"
+        },
         {
             "name": "fakerphp/faker",
             "version": "v1.24.1",
