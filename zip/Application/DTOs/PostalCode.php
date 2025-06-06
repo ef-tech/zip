@@ -14,5 +14,9 @@ class PostalCode
         public string $prefecture,
         public string $city,
         public string $town,
-    ) {}
+    ) {
+        // NOTE: $town_kana, $town の "（*）" を削除する
+        $this->town_kana = preg_replace('/（.*）/', '', $town_kana);
+        $this->town = preg_replace('/（.*）/', '', $town);
+    }
 }
