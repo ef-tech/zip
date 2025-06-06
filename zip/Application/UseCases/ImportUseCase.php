@@ -22,6 +22,7 @@ class ImportUseCase
     public function handle(iterable $postalCodes): void
     {
         foreach ($postalCodes as $postalCode) {
+            // TODO: バルクインサートに変更
             $entity = PostalCodeMapper::toEntity($postalCode);
 
             $this->repository->save($entity);
