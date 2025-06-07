@@ -8,7 +8,7 @@ use Zip\Domain\Repositories\PostalCodeRepositoryInterface;
 
 class EloquentPostalCodeRepository implements PostalCodeRepositoryInterface
 {
-    public function save(PostalCode $entity): PostalCode
+    public function save(PostalCode $entity): ?PostalCode
     {
         $eloquent = new EloquentPostalCode();
         $eloquent->forceFill($entity->toArray());
