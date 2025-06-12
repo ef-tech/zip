@@ -60,7 +60,7 @@ class ZipServiceProvider extends ServiceProvider
 
 ## 郵便番号データへの参照先を一時的に ZipCloud に切り替える
 
-```shell
+```diff
 # app/Http/Controllers/Api/V1/PostalCodeController.php
 namespace App\Http\Controllers\Api\V1;
 
